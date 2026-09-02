@@ -1,29 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Running</title>
+    <title>Lugares para correr en Buenos Aires</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Lugares para correr en Buenos Aires</h1>
+        <h1><a href="index.html">Lugares para correr en Buenos Aires</a></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="Libertador.html">Avenida Libertador & Alcorta</a></li>
+                <li><a href="Libertador.html">Av. Libertador &amp; Alcorta</a></li>
                 <li><a href="Palermo.html">Bosques de Palermo</a></li>
                 <li><a href="Regatas.html">Lago de Regatas</a></li>
-                <li><a href="ReservaEcologica.html">Reserva Ecologica: Costanera Sur</a></li>
+                <li><a href="ReservaEcologica.html">Reserva Ecológica</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="hero">
+        <h2>Correr en Buenos Aires</h2>
+        <p class="autor">por Pilar Martinez</p>
+        <p class="descripcion">
+            Buenos Aires ofrece una variedad de espacios urbanos y naturales ideales para practicar running.
+            Desde amplias avenidas arboladas hasta reservas ecológicas, esta galería te invita a descubrir
+            los mejores lugares para correr y disfrutar del paisaje porteño.
+        </p>
+        <img src="img/map.png" alt="Mapa de lugares para correr en Buenos Aires">
+    </section>
+
     <main>
-        <h1>Bienvenido a la guía de lugares para correr en Buenos Aires</h1>
-        <img src="img\map.png" alt="Mapa de Buenos Aires" width="500" height="300"> 
+        <section class="galeria">
+            <h2>Explorá los circuitos</h2>
+            <div class="galeria-grid">
+
+                <div class="tarjeta">
+                    <img src="img/libertador.jpeg" alt="Avenida Libertador y Figueroa Alcorta">
+                    <div class="tarjeta-contenido">
+                        <h3>Av. Libertador &amp; Alcorta</h3>
+                        <p>Un clásico recorrido urbano por las avenidas más amplias de la ciudad, rodeado de museos y espacios verdes.</p>
+                        <a href="Libertador.html">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/bosques.jpeg" alt="Bosques de Palermo">
+                    <div class="tarjeta-contenido">
+                        <h3>Bosques de Palermo</h3>
+                        <p>El pulmón verde más grande de Buenos Aires, con senderos rodeados de árboles y lagos.</p>
+                        <a href="Palermo.html">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/regatas.jpeg" alt="Lago de Regatas">
+                    <div class="tarjeta-contenido">
+                        <h3>Lago de Regatas</h3>
+                        <p>Un circuito tranquilo alrededor del lago, ideal para correr en contacto con la naturaleza.</p>
+                        <a href="Regatas.html">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/reserva.jpeg" alt="Reserva Ecológica Costanera Sur">
+                    <div class="tarjeta-contenido">
+                        <h3>Reserva Ecológica</h3>
+                        <p>Naturaleza pura a pasos del centro. Senderos de tierra con vistas al Río de la Plata.</p>
+                        <a href="ReservaEcologica.html">Ver más</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>2026 Guia de Correr en Buenos Aires. Todos los derechos reservados. Pilar Martinez</p>
+        <p>&copy; 2026 Guía de Correr en Buenos Aires. Todos los derechos reservados. Pilar Martinez</p>
     </footer>
 </body>
 </html>
